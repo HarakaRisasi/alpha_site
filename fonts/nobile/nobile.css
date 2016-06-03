@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Nobile';
+    src: local('Nobile'), local('Nobile-Regular'), url('nobile.woff2') format('woff2'), url('nobile.woff') format('woff'), url('nobile.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nobile';
+    src: local('Nobile Italic'), local('Nobile-Italic'), url('nobileitalic.woff2') format('woff2'), url('nobileitalic.woff') format('woff'), url('nobileitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Nobile';
+    src: local('Nobile Medium'), local('Nobile-Medium'), url('nobilemedium.woff2') format('woff2'), url('nobilemedium.woff') format('woff'), url('nobilemedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nobile';
+    src: local('Nobile Medium Italic'), local('Nobile-MediumItalic'), url('nobilemediumitalic.woff2') format('woff2'), url('nobilemediumitalic.woff') format('woff'), url('nobilemediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Nobile';
+    src: local('Nobile Bold'), local('Nobile-Bold'), url('nobilebold.woff2') format('woff2'), url('nobilebold.woff') format('woff'), url('nobilebold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nobile';
+    src: local('Nobile Bold Italic'), local('Nobile-BoldItalic'), url('nobilebolditalic.woff2') format('woff2'), url('nobilebolditalic.woff') format('woff'), url('nobilebolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}

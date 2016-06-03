@@ -1,0 +1,401 @@
+/*Обозначения
+!->> - основной фрагмент кода работает в совокупности с другими.
+<<- работает с основным фрагментом
+*/
+
+
+/*общие классы / general classes*/
+
+*, *:before, :after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Колонки / colomn */
+
+html, body {
+    /*!->> без нее высота колонок не на весь экран, обрезает по конец контента*/
+    height: 100%;
+}
+body {
+    width: 100%;
+    max-width: 939px;
+    margin: 0 auto;
+}
+.colu {
+    /*<<- Выравниваю по высоте */
+    overflow: hidden;
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+}
+.col-1-2 {
+    /*делаю резиновую сетку с максимальной шириной.*/
+    max-width: 19.595314%;
+    /*184px*/
+    background: #282224;
+    /*без него вторая колонка сместиться вниз*/
+    float: left;
+    /*<<- хороший способ выровнять колонки по высоте */
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.col-2-2 {
+    width: 100%;
+    /*делаю резиновую сетку с максимальной шириной.*/
+    max-width: 80.404686%;
+    /*755px*/
+    background: #c7c2bc;
+    float: right;
+    padding-top: 3%;
+    /*<<- хороший способ выровнять колонки по высоте */
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+
+/*--Колонки / colomn--*/
+
+
+/*--общие классы / general classes--*/
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*Классы первой колонки / first colomn class*/
+
+
+/*Лого / logo*/
+
+.logo_bgr {
+    background: #a6865d;
+}
+h1 {
+    font: 1.3vw "Nobile";
+    color: #c7c2bc;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+
+/*--Лого / logo--*/
+
+
+/*аватар / avatar*/
+
+.bgr_ava {
+    width: 100%;
+    background-image: url(../img/background_ava.png);
+}
+.ava_pic {
+    width: 85%;
+    border-radius: 50%;
+    border: 2px solid #000;
+    margin: 4.5% 7.5%;
+}
+
+/*--аватар / avatar--*/
+
+
+/*навигация / navigation*/
+
+.nav_shine:hover {
+    text-shadow: 0px 0px 10px #727272, 0px 0px 10px #727272;
+}
+.link_nav_but {
+    color: #bfbab4;
+    letter-spacing: 0.10em;
+    /*147px*/
+    list-style-type: none;
+    text-decoration: none;
+    font: 400 1vw "Nobile";
+    text-align: left;
+}
+.link_nav_but:active {
+    background: #a6865d;
+    text-align: center;
+    box-shadow: -10px 3px 3px #000;
+}
+.nav_border_bootom {
+    padding: 5% 0 3% 5%;
+    border-bottom: 1px solid #727272;
+    margin-bottom: 5%;
+}
+.link_nav {
+    width: 91.891304%;
+    /*147px*/
+    list-style-type: none;
+    text-decoration: none;
+    color: #bfbab4;
+    padding: 5% 3.143622% 5% 3.143622%;
+}
+span {
+    color: #635955;
+}
+
+/*--навигация / navigation--*/
+
+
+/*копирайт / copyright*/
+
+h6 {
+    width: 124.479166%;
+    /*235px*/
+    position: relative;
+    font: 900 0.478vw "Nobile";
+    padding: 120% 0 10% 0;
+    text-align: center;
+    color: #727272;
+    box-shadow: 0 0 10px #000;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background: #d8d2ce;
+}
+
+/*--копирайт / copyright--*/
+
+
+/*соц.сети / soccial network*/
+
+.links_social {
+    padding-top: 4%;
+    text-align: center;
+    opacity: 0.4;
+}
+.links_social a {
+    display: inline-block;
+}
+.img_social {
+    padding: 10%;
+}
+
+/*--соц.сети / soccial network--*/
+
+
+/*--классы первой колонки / first colomn class--*/
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+/*Классы второй колонки*/
+
+
+/*Лого / logo*/
+
+.header_second_colomn {
+    background: #282224;
+}
+.header_set_letter {
+    font: 1.3vw 'Nobile';
+    color: #c7c2bc;
+    padding-left: 20%;
+    padding-top: 0.52%;
+}
+
+/*--Лого / logo--*/
+
+
+/*контейнер статьи / article container*/
+
+.conteiner_text_about {
+    margin: 0 13%;
+}
+
+/*--контейнер статьи / article container--*/
+
+
+/*заголовок статьи aboutme / header article aboutme*/
+
+.header_article_aboutme {
+    font: 400 1.3em Roboto;
+}
+
+/*--заголовок статьи aboutme / header article aboutme--*/
+
+
+/*статья about_me / article about me*/
+
+.conteiner_text_about {
+    /*отступы от края / indentation from the edge*/
+    margin: 0 13%;
+}
+.text_aboutme {
+    text-align: justify;
+    text-indent: 15px;
+    font: 300 1em Roboto;
+}
+
+/*--статья about_me / article about me--*/
+
+
+/*ссылки_статья_aboutme / article links aboutme*/
+
+.links_resurces {
+    text-decoration: none;
+    font: 400 1em "Nobile";
+    color: #79588b;
+}
+
+/*--ссылки_статья_aboutme / article links aboutme--*/
+
+
+/*цитаты / quotations*/
+
+.quotations_example {
+    margin-left: 13%;
+    font: 0.875em Roboto;
+}
+.quotations {
+    text-align: right;
+    font-weight: 400 0.875em;
+    font-style: italic;
+    margin-bottom: 3%;
+}
+
+/*--цитаты / quotations--*/
+
+
+/*КЛАССЫ 2 стр./CLASS 2 p.*/
+
+
+/*каталог-основные/ catalog-general/*/
+
+figure {
+    background: #a6865d;
+    border-radius: 6px;
+    padding-top: 3%;
+    font: 1em monospace;
+    text-align: center;
+    margin: 3% 13%;
+}
+figure:first-child {
+    margin-top: 0;
+}
+
+/*--каталог-основные/ catalog-general--*/
+
+
+/*--картинка / picture--*/
+
+.links_img_figure {
+    width: 92%;
+    -webkit-box-shadow: inset hoff voff blur color;
+    box-shadow: 0 0 10px #000;
+}
+
+/*--картинка / picture--*/
+
+
+/*текст под картинкой / the text under the picture*/
+
+.text_img_un_links {
+    font: 400 0.875em Roboto;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+.li_figure {
+    text-align: left;
+    font: 400 0.800em Roboto;
+    color: #fff;
+    margin-left: 2%;
+}
+.li_figure:last-child {
+    padding-bottom: 2%;
+}
+
+/*--текст под картинкой / the text under the picture--*/
+
+
+/*--КЛАССЫ 2 стр./Class 2 p.--*/
+
+
+/*КЛАССЫ 3 стр./Class 3 p.*/
+
+
+/*настройки формы / form settings*/
+
+form {
+    background: #a6865d;
+    margin: 0 13% 0 13%;
+    font: 400 1em Roboto;
+    color: #fff;
+    border-radius: 6px;
+    text-align: center;
+    -webkit-box-shadow: inset hoff voff blur color;
+    box-shadow: 0 0 15px #fff, 0 0 30px #fff;
+}
+
+/*--настройки формы / form settings--*/
+
+
+/*заголовок формы / header form*/
+
+.head_form {
+    font: 400 1em Roboto;
+    color: #fff;
+    text-align: left;
+    padding: 2% 0 1% 0.5%;
+    margin: 0 2%;
+}
+
+/*--заголовок формы / header form--*/
+
+.text_area_form {
+    width: 94%;
+    font: 0.875em Roboto;
+    opacity: 0.6;
+    -webkit-box-shadow: inset hoff voff blur color;
+    box-shadow: 0 0 10px #000;
+}
+
+/*кнопка / button*/
+
+.but {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+    background: -moz-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background: -webkit-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background: -o-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background: -ms-linear-gradient(top, #eae0c2 5%, #ccc2a6 100%);
+    background: linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+    background-color: #eae0c2;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #333029;
+    cursor: pointer;
+    color: #505739;
+    font: 500 0.750em Roboto;
+    padding: 0.3vw 0.6vw;
+    margin: 3% 0;
+    text-transform: uppercase;
+    text-shadow: 0px 1px 0px #ffffff;
+}
+.but:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ccc2a6), color-stop(1, #eae0c2));
+    background: -moz-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background: -webkit-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background: -o-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background: -ms-linear-gradient(top, #ccc2a6 5%, #eae0c2 100%);
+    background: linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+    background-color: #ccc2a6;
+}
+.but:active {
+    position: relative;
+    top: 1px;
+}
+
+/*--кнопка / button--*/
+
+
+/*--КЛАССЫ 3 стр./Class 3 p.--*/
+
+
+/*--Классы второй колонки--*/

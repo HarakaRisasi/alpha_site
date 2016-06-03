@@ -1,0 +1,103 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Haraka Risasi</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="../apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../fonts/roboto/roboto.css">
+    <link rel="stylesheet" href="../fonts/nobile/nobile.css">
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser.
+            Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+          </p>
+        <![endif]-->
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../js/vendor/jquery-1.12.0.min.js"><\/script>')
+    </script>
+    <script src="../js/plugins.js"></script>
+    <script src="../js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = 'https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- ++++++++++++++++++++++++++++++
+MAIN
+++++++++++++++++++++++++++++++ -->
+
+    <div class="colu">
+        <section class="col-1-2">
+            <div class="logo_bgr">
+                <h1>HAR<span>a</span>KA</h1>
+            </div>
+            <section class="bgr_ava">
+                <a href="#"><img src="../img/main_photo.png" alt="haraka_photo" class="ava_pic" /></a>
+            </section>
+            <nav class="link_nav">
+                <li class="nav_shine nav_border_bootom link_nav_but"><a href="../index.html" class="link_nav">A<span>Bo</span>UT ME</a></li>
+                <li class="nav_shine nav_border_bootom link_nav_but"><a href="../pages/portfolio.html" class="link_nav">PO<span>r</span>TFOLIO</a></li>
+                <li class="nav_shine nav_border_bootom link_nav_but"><a href="#" class="link_nav">CO<span>n</span>TACT</a></li>
+            </nav>
+            <h6>(c) 2016 Haraka Risasi.ru. All Rights Reserved.</h6>
+            <section class="links_social">
+                <a href="https://github.com/QuickBullet13">
+                    <img src="../img/git.png" alt="git_link" onmouseover="this.src='../img/git_1.png';" onmouseout="this.src='../img/git.png';" class="img_social" />
+                </a>
+                <a href="https://vk.com/haraka">
+                    <img src="../img/vk.png" alt="vk_link" onmouseover="this.src='../img/vk_2.png';" onmouseout="this.src='../img/vk.png';" class="img_social" />
+                </a>
+                <a href="https://www.facebook.com/aQuickBullet13">
+                    <img src="../img/facebook.png" alt="facebook_link" onmouseover="this.src='../img/facebook_2.png';" onmouseout="this.src='../img/facebook.png';" class="img_social" />
+                </a>
+            </section>
+        </section>
+        <div class="header_second_colomn">
+            <h2 class="header_set_letter">CO<span>n</span>TACT</h2>
+        </div>
+        <section class="col-2-2">
+            <form action="https://formspree.io/harakarisasi@gmail.com" method="POST">
+                <fieldset>
+                    <label>
+                        <p class="head_form"><img src="../img/mail.png" alt="clock" width=4%;> Напишу письмо:</p>
+                        <textarea name="txtarea" rows="10" placeholder="Сюда напишу свой комментарий" class="text_area_form" required></textarea>
+                    </label>
+                    <input type="hidden" name="_next" value="//site.io/thanks.html" />
+                    <input type="text" name="_gotcha" style="display:none" />
+                </fieldset>
+                <input class="but" type="submit" name="submit" value="Отправляю">
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
